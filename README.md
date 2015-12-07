@@ -21,6 +21,7 @@ $ bower install to-boolean --save
 ```javascript
 var toBoolean = require('to-boolean');
 
+toBoolean('true'); // true
 toBoolean('y'); // true
 toBoolean('no'); // false
 toBoolean(''); // false
